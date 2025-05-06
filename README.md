@@ -5,7 +5,7 @@ An interactive HR analytics solution designed to detect early signs of disengage
 ---
 ## Table of Contents 📑
 
-1. [Project Overview](#project-overview)
+1. [Project Overview](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#project-overview-)
 
 
 ---
