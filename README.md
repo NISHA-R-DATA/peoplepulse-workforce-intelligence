@@ -168,6 +168,8 @@ An interactive navigation panel allows users to toggle between the two primary d
 
 This simple toggle provides HR teams with easy access to the relevant insights.
 
+![Navigation Pannel](https://github.com/user-attachments/assets/1f45c243-4311-4823-ba90-30634820cb60)
+
 ---
 
 ### Workforce Pulse – Early Warning System 📈
@@ -189,6 +191,12 @@ This dashboard helps HR teams detect early signs of disengagement, burnout, and 
 - Training Hours by Performance Tier (Column Chart): Correlates training efforts with performance.
 - Performance vs. Satisfaction by Age Group (Clustered Column): Age-based trends in morale & output.
 
+
+
+### 📸 Dashboard Snapshot: Workforce Pulse – Early Warning System
+
+![Workforce_Dashboard](https://github.com/user-attachments/assets/d12c179f-f9d5-4c8e-a8fe-f93cfd896ba8)
+
 ---
 
 ### Attrition Lab – Deep Dive Insights 🏊‍♂️
@@ -208,6 +216,11 @@ This dashboard analyzes resignation patterns, helping HR identify key drivers of
 - Compensation vs. Attrition (Combo Chart): Shows the relationship between compensation and resignation rates.
 - Job Role × Performance Attrition Matrix (Table Matrix): Cross-analyses job roles and performance scores against resignation data.
 - Tenure vs. Promotions Impact (Stacked Area): Displays the relationship between employee tenure, promotions, and attrition risk.
+
+
+### 📸 Dashboard Snapshot: Attrition Lab – Deep Dive Insights
+  
+![Attrition_Dashboard](https://github.com/user-attachments/assets/dc4efc08-5bd8-408e-9b99-3f4101b254b1)
 
 ---
 
