@@ -6,21 +6,6 @@ An interactive HR analytics solution designed to detect early signs of disengage
 ## Table of Contents 📑
 
 1. [Project Overview](#project-overview)
-2. [Business Problem](#business-problem)
-3. [Data Source](#data-source)
-4. [Tools & Technologies Used](#tools-technologies-used)
-5. [Approach: From Raw Data to Workforce Intelligence](#approach-from-raw-data-to-workforce-intelligence)
-    - [Data Validation & Cleansing](#data-validation-cleansing)
-    - [Data Preparation in Power Query Editor](#data-preparation-in-power-query-editor)
-    - [DAX Modelling for Strategic HR KPIs](#dax-modelling-for-strategic-hr-kpis)
-6. [Dashboard Design & Visualization Strategy](#dashboard-design-visualization-strategy)
-    - [Workforce Pulse – Early Warning System](#workforce-pulse--early-warning-system)
-    - [Attrition Lab – Deep Dive Insights](#attrition-lab--deep-dive-insights)
-7. [Key Insights](#key-insights)
-    - [Workforce Pulse – Early Warning System](#workforce-pulse--early-warning-system-1)
-    - [Attrition Lab – Deep Dive Insights](#attrition-lab--deep-dive-insights-1)
-8. [Recommendations](#recommendations)
-9. [Conclusion](#conclusion)
 
 
 ---
