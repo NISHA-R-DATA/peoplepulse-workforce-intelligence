@@ -13,21 +13,21 @@ The project consists of two expert-level dashboards:
 ---
 ## Table of Contents 📑
 
-1. [Business Problem](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#business-problem-)
-2. [Data Source](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#data-source-)
-3. [Tools & Technologies Used](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#tools--technologies-used-%EF%B8%8F)
-4. [Approach: From Raw Data to Workforce Intelligence](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#approach-from-raw-data-to-workforce-intelligence-)
-   - [Data Validation & Cleansing](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#1-data-validation--cleansing-mysql--power-bi-)
-   - [Data Preparation in Power Query Editor](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#2-data-preparation-in-power-query-editor-%EF%B8%8F)
-   - [DAX Modelling for Strategic HR KPIs](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#3-dax-modeling-for-strategic-hr-kpis-)
-5. [Dashboard Design & Visualization Strategy](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#dashboard-design--visualization-strategy-)
-    - [Workforce Pulse – Early Warning System](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#workforce-pulse--early-warning-system-)
-    - [Attrition Lab – Deep Dive Insights](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#attrition-lab--deep-dive-insights-%EF%B8%8F)
-6. [Key Insights](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#key-insights-)
-    - [Workforce Pulse – Early Warning System](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#workforce-pulse--early-warning-system--1)
-    - [Attrition Lab – Deep Dive Insights](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#attrition-lab--deep-dive-insights-%EF%B8%8F%EF%B8%8F)
-7. [Recommendations](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#recommendations-)
-8. [Conclusion](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#conclusion-)
+1. [Business Problem](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#business-problem-)
+2. [Data Source](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#data-source-)
+3. [Tools & Technologies Used](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#tools--technologies-used-%EF%B8%8F)
+4. [Approach: From Raw Data to Workforce Intelligence](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#approach-from-raw-data-to-workforce-intelligence-)
+   - [Data Validation & Cleansing](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#1-data-validation--cleansing-mysql--power-bi-)
+   - [Data Preparation in Power Query Editor](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#2-data-preparation-in-power-query-editor-%EF%B8%8F)
+   - [DAX Modelling for Strategic HR KPIs](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#3-dax-modeling-for-strategic-hr-kpis-)
+5. [Dashboard Design & Visualization Strategy](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#dashboard-design--visualization-strategy-)
+    - [Workforce Pulse – Early Warning System](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#workforce-pulse--early-warning-system-)
+    - [Attrition Lab – Deep Dive Insights](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#attrition-lab--deep-dive-insights-%EF%B8%8F)
+6. [Key Insights](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#key-insights-)
+    - [Workforce Pulse – Early Warning System](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#workforce-pulse--early-warning-system--1)
+    - [Attrition Lab – Deep Dive Insights](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#attrition-lab--deep-dive-insights-%EF%B8%8F%EF%B8%8F)
+7. [Recommendations](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#recommendations-)
+8. [Conclusion](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence?tab=readme-ov-file#conclusion-)
 
 
 ---
