@@ -1,44 +1,39 @@
-# PeoplePulse: Proactive Workforce Intelligence 🚀
+![title_image](https://github.com/user-attachments/assets/5f783275-46e3-41a1-bd92-adf210b28367)
 
-An interactive HR analytics solution designed to detect early signs of disengagement, attrition risk, and performance bottlenecks. 📊
+## Project Overview 🧑‍💼
+
+In today’s **fast-paced business environment**, **HR teams** face increasing pressure to address challenges such as **employee disengagement**, **burnout**, and **high turnover**. These issues are often compounded by **fragmented workforce data**, hindering HR’s ability to **intervene proactively**.
+
+**PeoplePulse** tackles these challenges by providing an **interactive**, **data-driven solution** built in **Power BI**, supported by **data validation and architecture** in **MySQL**. This project empowers HR teams to **monitor and address** employee disengagement and turnover risks, turning **complex HR data** into **actionable insights**. 📊
+
+The project consists of two expert-level dashboards:
+1.	**Workforce Pulse – Early Warning System**: Monitors **employee engagement** and **productivity**, flagging early signs of **burnout**, **performance dips**, and **disengagement**.⚠️
+2.	**Attrition Lab – Deep Dive Insights**: Analyses **resignation trends** and uncovers the **root causes of turnover**, guiding HR teams to improve **retention strategies**.🔍
 
 ---
 ## Table of Contents 📑
 
-1. [Project Overview](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#project-overview-)
-2. [Business Problem](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#business-problem-)
-3. [Data Source](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#data-source-)
-4. [Tools & Technologies Used](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#tools--technologies-used-%EF%B8%8F)
-5. [Approach: From Raw Data to Workforce Intelligence](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#approach-from-raw-data-to-workforce-intelligence-)
+1. [Business Problem](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#business-problem-)
+2. [Data Source](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#data-source-)
+3. [Tools & Technologies Used](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#tools--technologies-used-%EF%B8%8F)
+4. [Approach: From Raw Data to Workforce Intelligence](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#approach-from-raw-data-to-workforce-intelligence-)
    - [Data Validation & Cleansing](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#1-data-validation--cleansing-mysql--power-bi-)
    - [Data Preparation in Power Query Editor](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#2-data-preparation-in-power-query-editor-%EF%B8%8F)
    - [DAX Modelling for Strategic HR KPIs](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#3-dax-modeling-for-strategic-hr-kpis-)
-6. [Dashboard Design & Visualization Strategy](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#dashboard-design--visualization-strategy-)
+5. [Dashboard Design & Visualization Strategy](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#dashboard-design--visualization-strategy-)
     - [Workforce Pulse – Early Warning System](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#workforce-pulse--early-warning-system-)
     - [Attrition Lab – Deep Dive Insights](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#attrition-lab--deep-dive-insights-%EF%B8%8F)
-7. [Key Insights](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#key-insights-)
+6. [Key Insights](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#key-insights-)
     - [Workforce Pulse – Early Warning System](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#workforce-pulse--early-warning-system--1)
     - [Attrition Lab – Deep Dive Insights](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#attrition-lab--deep-dive-insights-%EF%B8%8F%EF%B8%8F)
-8. [Recommendations](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#recommendations-)
-9. [Conclusion](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#conclusion-)
+7. [Recommendations](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#recommendations-)
+8. [Conclusion](https://github.com/NISHA-R-DATA/peoplepulse-workforce-intelligence/blob/main/README.md#conclusion-)
+
 
 ---
-
-## Project Overview 🧑‍💼
-
-In today’s fast-paced business environment, HR teams face increasing pressure to address challenges such as employee disengagement, burnout, and high turnover. These issues are often compounded by fragmented workforce data, hindering HR’s ability to intervene proactively.
-
-**PeoplePulse** tackles these challenges by providing an interactive, data-driven solution built in **Power BI**, supported by data validation and architecture in **MySQL**. This project empowers HR teams to monitor and address employee disengagement and turnover risks, turning complex HR data into actionable insights. 📊
-
-The project consists of two expert-level dashboards:
-1.	**Workforce Pulse – Early Warning System**: Monitors employee engagement and productivity, flagging early signs of burnout, performance dips, and disengagement.⚠️
-2.	**Attrition Lab – Deep Dive Insights**: Analyses resignation trends and uncovers the root causes of turnover, guiding HR teams to improve retention strategies.🔍
-
----
-
 ## Business Problem ❓
 
-The HR department is facing challenges in identifying early signs of employee disengagement, potential attrition risk, and performance bottlenecks due to a lack of unified visibility across workforce demographics, satisfaction, workload, training, and compensation. As a result, HR teams struggle to take proactive measures before issues escalate.
+The **HR department** is facing challenges in identifying early signs of **employee disengagement**, **potential attrition risk**, and **performance bottlenecks** due to a lack of unified visibility across workforce demographics, satisfaction, workload, training, and compensation. As a result, HR teams struggle to take **proactive measures** before issues escalate.
 
 ---
 
@@ -174,7 +169,7 @@ This simple toggle provides HR teams with easy access to the relevant insights.
 
 ### Workforce Pulse – Early Warning System 📈
 
-This dashboard helps HR teams detect early signs of disengagement, burnout, and underperformance, enabling proactive intervention.
+This dashboard helps HR teams detect **early signs** of **disengagement**, **burnout**, and **underperformance**, enabling **proactive intervention**.
 
 **Key KPIs**:
 - Total Active Employees
@@ -201,7 +196,7 @@ This dashboard helps HR teams detect early signs of disengagement, burnout, and 
 
 ### Attrition Lab – Deep Dive Insights 🏊‍♂️
 
-This dashboard analyzes resignation patterns, helping HR identify key drivers of attrition.
+This **dashboard** analyzes **resignation patterns**, helping **HR** identify key **drivers of attrition**.
 
 **Key KPIs**:
 - Attrition Count
@@ -228,44 +223,44 @@ This dashboard analyzes resignation patterns, helping HR identify key drivers of
 
 ### Workforce Pulse – Early Warning System 📉
 
-- **Employee Engagement & Disengagement**: 37.5% of employees exhibit signs of low engagement.
-- **Burnout Risk**: 15.2% of employees are at risk, particularly in specific departments.
-- **Satisfaction Trends**: Departments like Customer Support, Marketing, and Legal report lower satisfaction.
-- **Workload Distribution**: Analysts in small teams report the highest work hours and overtime.
-- **Remote Work Effect**: Hybrid and remote employees report higher satisfaction levels.
-- **Training & Performance**: Minimal correlation between training hours and performance, indicating the need for tailored programs.
-- **Age and Performance**: Employees aged 22-29 report the lowest engagement and performance levels.
+- **Employee Engagement & Disengagement**: 37.5% of employees exhibit signs of **low engagement**.
+- **Burnout Risk**: 15.2% of employees are at **risk**, particularly in specific **departments**.
+- **Satisfaction Trends**: **Departments** like **Customer Support**, **Marketing**, and **Legal** report lower **satisfaction**.
+- **Workload Distribution**: **Analysts** in small teams report the highest **work hours** and **overtime**.
+- **Remote Work Effect**: **Hybrid** and **remote employees** report higher **satisfaction** levels.
+- **Training & Performance**: Minimal correlation between **training hours** and **performance**, indicating the need for tailored **programs**.
+- **Age and Performance**: Employees aged **22-29** report the lowest **engagement** and **performance levels**.
 
 ### Attrition Lab – Deep Dive Insights 🕵️‍♂️
 
-- **Attrition Overview**: A 10% resignation rate, primarily after 4.5 years of tenure.
-- **Exit Sentiment**: Neutral exit sentiment suggests lack of emotional connection at departure.
-- **Departmental & Role Insights**: High attrition in Developers, Engineers, Technicians, and Consultants in Finance, HR, and Operations.
+- **Attrition Overview**: A 10% **resignation rate**, primarily after **4.5 years** of **tenure**.
+- **Exit Sentiment**: **Neutral** exit sentiment suggests lack of **emotional connection** at departure.
+- **Departmental & Role Insights**: High **attrition** in **Developers**, **Engineers**, **Technicians**, and **Consultants** in **Finance**, **HR**, and **Operations**.
 - **Tenure & Promotions**: Employees with over 10 years at the company without promotion have higher attrition rates.
-- **Gender & Age Trends**: Attrition rates are balanced across genders, with increases in mid-to-late career employees.
-- **Education & Satisfaction**: Bachelor's degree holders show the highest attrition.
+- **Gender & Age Trends**: **Attrition rates** are balanced across **genders**, with increases in **mid-to-late career** employees.
+- **Education & Satisfaction**: **Bachelor's degree** holders show the highest **attrition**.
 
 ---
 
 ## Recommendations 💼
 
-1. **Address Burnout & Workload Imbalance**: Redistribute workloads and offer stress management support.
-2. **Target Gender-Specific Engagement**: Tailor engagement strategies to address gender-related differences.
-3. **Focus on Low-Performing Departments**: Investigate leadership and environmental issues in departments with low satisfaction.
-4. **Support Younger Employees (22-29)**: Offer tailored onboarding, mentorship, and career development.
-5. **Promote Remote Work Flexibility**: Expand hybrid and remote work options to enhance satisfaction.
-6. **Tailored Training for Low Performers**: Develop specific programs to improve low performers' outcomes.
-7. **Enhance Internal Mobility & Career Development**: Implement promotion frameworks and mentorship for long-tenured employees.
-8. **Retain High Performers**: Implement performance-linked incentives to retain top talent.
-9. **Reassess Roles with High Attrition Despite Remote Options**: Focus on leadership and role clarity for high-turnover positions.
-10. **In-Depth Exit Surveys**: Analyze feedback to identify key attrition drivers.
-11. **Monitor Pay-Stress Gaps**: Address compensation misalignments in roles with high attrition.
+1. **Address Burnout & Workload Imbalance**: Redistribute **workloads** and offer **stress management** support.
+2. **Target Gender-Specific Engagement**: Tailor **engagement strategies** to address **gender-related differences**.
+3. **Focus on Low-Performing Departments**: Investigate **leadership** and **environmental issues** in departments with low **satisfaction**.
+4. **Support Younger Employees (22-29)**: Offer tailored **onboarding**, **mentorship**, and **career development**.
+5. **Promote Remote Work Flexibility**: Expand **hybrid** and **remote work** options to enhance **satisfaction**.
+6. **Tailored Training for Low Performers**: Develop specific **programs** to improve **low performers** outcomes.
+7. **Enhance Internal Mobility & Career Development**: Implement **promotion frameworks** and **mentorship** for long-tenured employees.
+8. **Retain High Performers**: Implement **performance-linked incentives** to retain top **talent**.
+9. **Reassess Roles with High Attrition Despite Remote Options**: Focus on **leadership** and **role clarity** for **high-turnover positions**.
+10. **In-Depth Exit Surveys**: Analyze **feedback** to identify key **attrition drivers**.
+11. **Monitor Pay-Stress Gaps**: Address **compensation misalignments** in roles with high **attrition**.
 
 ---
 
 ## Conclusion 🌟
 
-**PeoplePulse** transforms raw workforce data into strategic intelligence through meticulous data preparation in MySQL and insightful visualizations in Power BI. Tailored DAX measures and rigorously verified aggregations power interactive dashboards that spotlight early signs of disengagement, attrition risk, and underperformance. This end-to-end solution equips HR leaders with timely, actionable insights—enabling proactive decisions that elevate employee well-being and strengthen organizational outcomes. 🧑‍💻
+**PeoplePulse** transforms raw **workforce data** into **strategic intelligence** through meticulous **data preparation** in **MySQL** and insightful **visualizations** in **Power BI**. Tailored **DAX measures** and rigorously verified **aggregations** power **interactive dashboards** that spotlight early signs of **disengagement**, **attrition risk**, and **underperformance**. This end-to-end solution equips **HR leaders** with timely, **actionable insights**—enabling **proactive decisions** that elevate **employee well-being** and strengthen **organizational outcomes**. 🧑‍💻
 
 ---
 
